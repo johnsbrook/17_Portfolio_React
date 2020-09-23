@@ -7,10 +7,10 @@ import Col from "../components/Col";
 function About() {
   return (
     <div>
-      <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
-        <h1>Pupster</h1>
-        <h2>They're the Good Boys and Girls</h2>
-      </Hero>
+      {/* <Hero backgroundImage="https://bit.ly/300aVQ6">
+        <h1>Iv&aacute;n J. Zapata-Rivera</h1>
+        <h2>Coding Portfolio</h2>
+      </Hero> */}
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">

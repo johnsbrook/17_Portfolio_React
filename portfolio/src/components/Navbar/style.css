@@ -3,7 +3,8 @@ nav.navbar.navbar-default {
 }
 
 .navbar {
-  background-color: rgb(15,155,225);
+  /* background-color: rgb(15,155,225); */
+  background-color: black;
   color: white;
 }
 

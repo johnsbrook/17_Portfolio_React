@@ -22,7 +22,7 @@ function Navbar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon white pt-2">
+        <span className="navbar-toggler-icon white pt-1">
         <i class="fas fa-bars"></i>
         </span>
       </button>
