@@ -24,7 +24,7 @@ function About() {
             <h3 className="mainfont">Iv&aacute;n J. Zapata-Rivera, MBA</h3>
             <b>MBA</b> (International Enterprises, Polytechnic University of Puerto Rico)<br></br>
                   <b>Certified Web Developer</b> (HTML5, CSS, JavaScript (Vanilla, jQuery and Sequelize), MySQL, and MERN (MongoDB, Express, React.js, and Node.js, Rutgers University)<br></br>
-                  <b>United Airlines</b> Inflight Services<br></br></p>
+            </p>
 
             <hr />
           </Col>
@@ -45,7 +45,10 @@ function About() {
         </Row>
         <Row>
           <Col size="md-12" className="title">
-          Web Developer Full Stack Flex (Rutgers University)<br></br>MBA, International Enterprises (Polytechnic University of Puerto Rico)
+          Web Developer Full Stack Flex (Rutgers University)<br></br>
+          MBA, International Enterprises (Polytechnic University of Puerto Rico)<br></br>
+          GitHub: <a href="https://github.com/johnsbrook" target="0" className="white">github.com/johnsbrook</a><br></br>
+          LinkedIn: <a href="https://www.linkedin.com/in/ivanzapatarivera/" target="0" className="white">linkedin.com/in/ivanzapatarivera</a>
           </Col>
         </Row>
       </Container>

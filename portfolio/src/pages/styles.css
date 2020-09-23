@@ -1,14 +1,22 @@
 .signature {
-    font-family: 'Great Vibes', cursive;
-    font-size: 1.85em;
-    margin-bottom: -.15em;
-    margin-top: .15em;
+  font-family: "Great Vibes", cursive;
+  font-size: 1.85em;
+  margin-bottom: -0.15em;
+  margin-top: 0.15em;
 }
 
 .mainfont {
-    font-family: 'Comic Sans', sans-serif;
+  font-family: "Comic Sans", sans-serif;
 }
 
 .title {
-    font-size: .80em;
+  font-size: 0.8em;
+}
+
+.white,
+.white:hover,
+.white:active,
+.white:visited {
+  color: white;
+  text-decoration: none;
 }
