@@ -3,8 +3,8 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="footer">
-      <span>Pupster 2017</span>
+    <footer className="footer text-center">
+      <span>Iv&aacute;n J. Zapata-Rivera &copy;</span>
     </footer>
   );
 }
