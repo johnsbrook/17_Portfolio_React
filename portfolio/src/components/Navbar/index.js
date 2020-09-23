@@ -1,8 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { dom } from "@fortawesome/fontawesome-svg-core";
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
+
+dom.watch();
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg shadow">
@@ -10,7 +14,7 @@ function Navbar() {
         Iv&aacute;n J. Zapata-Rivera
       </Link>
       <button
-        class="navbar-toggler"
+        class="navbar-toggler white"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNavAltMarkup"
@@ -32,6 +36,9 @@ function Navbar() {
             to="/"
           >
             Home <span class="sr-only">(current)</span>
+            &nbsp;&nbsp;
+            <i class="fas fa-laptop-house"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Link>
           <Link
             className={
@@ -41,7 +48,9 @@ function Navbar() {
             }
             to="/portfolio"
           >
-            Portfolio
+            Portfolio &nbsp;&nbsp;
+            <i class="fas fa-grip-horizontal"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Link>
           <Link
             className={
@@ -51,7 +60,9 @@ function Navbar() {
             }
             to="/github"
           >
-            GitHub
+            GitHub &nbsp;&nbsp;
+            <i class="fab fa-github"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Link>
           <Link
             className={
@@ -61,12 +72,12 @@ function Navbar() {
             }
             to="/linkedin"
           >
-            LinkedIn
+            LinkedIn &nbsp;&nbsp;
+            <i class="fab fa-linkedin-in"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Link>
         </div>
       </div>
-
-     
     </nav>
   );
 }
