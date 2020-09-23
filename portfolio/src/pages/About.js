@@ -1,9 +1,9 @@
 import React from "react";
-import Hero from "../components/Hero";
+
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import Profile from "../components/Profile";
+
 import './styles.css'
 
 function About() {
@@ -34,7 +34,7 @@ function About() {
             <div className="mainfont">
             <h2>Welcome to my Profile</h2>
             <p class="bodytext mr-2" id="p0">Hi, and thank you for taking your time to read a bit about me as a web developer and individual.</p>
-            <p class="bodytext mr-2" id="p1">Recently, I finished Rutgers University Full Stack Flex web developer certification. Through this course, I've earned knowledge on HTML5, CSS, JavaScript (Vanilla, jQuery and Sequelize), MySql, and MERN (MongoDB, Express, React.js, and Node.js). I've created online and offline apps using these technologies, which are available in my portfolio.</p>
+            <p class="bodytext mr-2" id="p1">Recently, I finished Rutgers University Full Stack Flex web developer certification. Through this course, I've earned knowledge on HTML5, CSS, JavaScript (Vanilla, jQuery and Sequelize), MySQL, and MERN (MongoDB, Express, React.js, and Node.js). I've created online and offline apps using these technologies, which are available in my portfolio.</p>
             <p class="bodytext mr-2" id="p2">After finishing my certification, I've grown enthusiastic about bringing these skills over and join a leading organization where I can grow as a web developer.</p>
             <p class="bodytext mr-2" id="p3">My professional background is pretty diverse, with experience in the transportation and financial industries. Prior to joining Rutgers University, I had different roles at United Airlines as part of Inflight Services Department, which included supervising a team of more than 200 employees and helping with the operation. Before being part of United's team, I was part of the Organization Department (under Means) at Banco Santander where I had the role of Policies and Procedures Officer.</p>
             <p class="bodytext mr-2" id="p4">I invite you to visit my GitHub, browse through my profile and see the different projects I've developed along with the team of experts and now graduates from Rutgers.</p>
