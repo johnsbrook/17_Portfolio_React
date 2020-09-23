@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { dom } from "@fortawesome/fontawesome-svg-core";
 import "./style.css";
 
-// Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 
+// Initialized the use of fontawesome icons converting <i> tag into <svg> tag when running the code.
 dom.watch();
 function Navbar() {
   return (
@@ -22,7 +22,9 @@ function Navbar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon white pt-2">
+        <i class="fas fa-bars"></i>
+        </span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
@@ -35,9 +37,9 @@ function Navbar() {
             }
             to="/"
           >
-            Home <span class="sr-only">(current)</span>
-            &nbsp;&nbsp;
-            <i class="fas fa-laptop-house"></i>
+            <i class="fas fa-laptop-house"></i> <span class="sr-only">(current)</span>
+            &nbsp;
+            Home
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Link>
           <Link
@@ -48,8 +50,8 @@ function Navbar() {
             }
             to="/portfolio"
           >
-            Portfolio &nbsp;&nbsp;
-            <i class="fas fa-grip-horizontal"></i>
+            <i class="fas fa-grip-horizontal"></i> &nbsp;&nbsp;
+            Portfolio
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Link>
           <Link
@@ -60,8 +62,8 @@ function Navbar() {
             }
             to="/github"
           >
-            GitHub &nbsp;&nbsp;
-            <i class="fab fa-github"></i>
+            <i class="fab fa-github"></i> &nbsp;&nbsp;
+            GitHub
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Link>
           <Link
@@ -72,8 +74,8 @@ function Navbar() {
             }
             to="/linkedin"
           >
-            LinkedIn &nbsp;&nbsp;
-            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-linkedin-in"></i> &nbsp;&nbsp;
+            LinkedIn
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Link>
         </div>

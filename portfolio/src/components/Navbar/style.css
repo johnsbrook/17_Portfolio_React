@@ -7,6 +7,9 @@ nav.navbar.navbar-default {
   color: white;
 }
 
-.navbar-brand, .nav-link, .navbar-brand:active, .nav-link:active, .navbar-brand:visited, .nav-link:visited {
+.white, .navbar-brand, .nav-link, 
+.navbar-brand:active, .nav-link:active, 
+.navbar-brand:visited, .nav-link:visited,
+.navbar-brand:hover, .nav-link:hover {
   color: white;
 }
