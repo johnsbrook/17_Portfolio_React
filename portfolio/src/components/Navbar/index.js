@@ -5,42 +5,68 @@ import "./style.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg shadow">
       <Link className="navbar-brand" to="/">
-        Pupster
+        Iv&aacute;n J. Zapata-Rivera
       </Link>
-      <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/about"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              About
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/discover"
-              className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
-            >
-              Discover
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
-              to="/search"
-              className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
-            >
-              Search
-            </Link>
-          </li>
-        </ul>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <Link
+            className={
+              window.location.pathname === "/" ||
+              window.location.pathname === "/about"
+                ? "nav-link active"
+                : "nav-link"
+            }
+            to="/"
+          >
+            Home <span class="sr-only">(current)</span>
+          </Link>
+          <Link
+            className={
+              window.location.pathname === "/portfolio"
+                ? "nav-link active"
+                : "nav-link"
+            }
+            to="/portfolio"
+          >
+            Portfolio
+          </Link>
+          <Link
+            className={
+              window.location.pathname === "/github"
+                ? "nav-link active"
+                : "nav-link"
+            }
+            to="/github"
+          >
+            GitHub
+          </Link>
+          <Link
+            className={
+              window.location.pathname === "/linkedin"
+                ? "nav-link active"
+                : "nav-link"
+            }
+            to="/linkedin"
+          >
+            LinkedIn
+          </Link>
+        </div>
       </div>
+
+     
     </nav>
   );
 }

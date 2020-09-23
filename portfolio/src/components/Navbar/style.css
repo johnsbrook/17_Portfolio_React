@@ -1,3 +1,12 @@
 nav.navbar.navbar-default {
   margin-bottom: 0;
 }
+
+.navbar {
+  background-color: rgb(15,155,225);
+  color: white;
+}
+
+.navbar-brand, .nav-link, .navbar-brand:active, .nav-link:active, .navbar-brand:visited, .nav-link:visited {
+  color: white;
+}
