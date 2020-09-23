@@ -14,6 +14,7 @@ function About() {
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
+            <img className="mx-auto" src="https://bit.ly/3hQGq57" alt="profile image" />
             <h1>Welcome To Pupster!</h1>
           </Col>
         </Row>
