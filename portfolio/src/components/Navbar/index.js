@@ -54,30 +54,18 @@ function Navbar() {
             Portfolio
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Link>
-          <Link
-            className={
-              window.location.pathname === "/github"
-                ? "nav-link active"
-                : "nav-link"
-            }
-            to="/github"
-          >
-            <i class="fab fa-github"></i> &nbsp;&nbsp;
-            GitHub
+          
+               
+           
+            <a className="white nav-link active" href="https://github.com/johnsbrook" target="0"><i class="fab fa-github"></i> &nbsp;&nbsp;
+            GitHub</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </Link>
-          <Link
-            className={
-              window.location.pathname === "/linkedin"
-                ? "nav-link active"
-                : "nav-link"
-            }
-            to="/linkedin"
-          >
-            <i class="fab fa-linkedin-in"></i> &nbsp;&nbsp;
-            LinkedIn
+        
+          
+            <a className="white nav-link active" href="https://www.linkedin.com/in/ivanzapatarivera/" target="0"><i class="fab fa-linkedin-in"></i> &nbsp;&nbsp;
+            LinkedIn</a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </Link>
+          
         </div>
       </div>
     </nav>

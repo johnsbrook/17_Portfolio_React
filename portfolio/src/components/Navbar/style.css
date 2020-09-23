@@ -9,8 +9,9 @@ nav.navbar.navbar-default {
 }
 
 .white, .navbar-brand, .nav-link, 
-.navbar-brand:active, .nav-link:active, 
-.navbar-brand:visited, .nav-link:visited,
-.navbar-brand:hover, .nav-link:hover {
+.navbar-brand:active, .nav-link:active, .white:active,
+.navbar-brand:visited, .nav-link:visited, .white:visited
+.navbar-brand:hover, .nav-link:hover, .white:hover {
   color: white;
+  text-decoration: none;
 }
