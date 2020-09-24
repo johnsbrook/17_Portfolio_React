@@ -20,3 +20,17 @@
   color: white;
   text-decoration: none;
 }
+
+.cardStyle {
+  border-radius: 10px;
+}
+
+.cardStylePortfolio {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height:100%;
+}
+
+.card-body {
+  color: black;
+}
